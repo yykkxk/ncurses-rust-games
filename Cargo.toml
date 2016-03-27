@@ -1,0 +1,16 @@
+[package]
+name = "mygame"
+version = "0.1.0"
+authors = ["ding"]
+
+description = "A snake game written by Ding Bin using Rust and ncurses-rs."
+
+[dependencies]
+amethyst = "*"
+rand = { path = "rand-0.3.13", version = "0.3.13" }
+ncurses = "*"
+
+[[bin]]
+name = "space_invaders"
+path = "src/ncurses_space_invaders.rs"
+# path = "src/ncurses_snake.rs"
