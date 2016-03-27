@@ -1,5 +1,5 @@
 [root]
-name = "mygame"
+name = "mygames"
 version = "0.1.0"
 dependencies = [
  "ncurses 5.80.0 (registry+https://github.com/rust-lang/crates.io-index)",

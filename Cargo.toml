@@ -1,9 +1,12 @@
 [package]
-name = "mygame"
+name = "mygames"
 version = "0.1.0"
-authors = ["ding"]
+authors = ["yykkxk<yykkxk@gmail.com>"]
 
-description = "A snake game written by Ding Bin using Rust and ncurses-rs."
+keywords = ["rust", "ncurses"]
+description = "Some small ncurses games written in Rust-language."
+readme = "README.md"
+
 
 [dependencies]
 # rand = { path = "rand-0.3.13", version = "0.3.13" }
