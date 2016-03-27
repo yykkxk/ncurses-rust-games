@@ -4,7 +4,7 @@ use self::rand::Rng;
 use std::collections::HashSet;
 
 #[derive(Debug, PartialEq, Eq, Hash, Clone, Copy)]
-pub struct Point(pub i32, pub i35);
+pub struct Point(pub i32, pub i32);
 
 impl Point {
     pub fn new_with_xy(x: i32, y: i32) -> Point {
