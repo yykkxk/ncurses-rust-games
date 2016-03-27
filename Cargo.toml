@@ -6,9 +6,9 @@ authors = ["ding"]
 description = "A snake game written by Ding Bin using Rust and ncurses-rs."
 
 [dependencies]
-amethyst = "*"
-rand = { path = "rand-0.3.13", version = "0.3.13" }
+# rand = { path = "rand-0.3.13", version = "0.3.13" }
 ncurses = "*"
+rand = "*"
 
 [[bin]]
 name = "space_invaders"
